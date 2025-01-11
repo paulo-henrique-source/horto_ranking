@@ -142,6 +142,11 @@ export const Chart = () => {
       hortoCoins: 0,
       avatar: "/people/julia.jpg",
     },
+    {
+      name: "Arthur",
+      hortoCoins: 0,
+      avatar: undefined,
+    },
   ];
 
   const renderCustomizedLabel = (props) => {
@@ -152,6 +157,10 @@ export const Chart = () => {
     const centerY = y + height / 2 - imgSize / 2;
 
     const positionX = value === 0 ? 110 : x + width + 5;
+
+    if (!imageUrl) {
+      return null;
+    }
 
     return (
       <foreignObject
