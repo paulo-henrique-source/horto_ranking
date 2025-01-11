@@ -22,9 +22,14 @@ export const AppContainer = styled.div`
 
   .title {
     color: #f6f5d7;
-
     border-radius: 10px;
     padding: 8px;
+
+    h1 {
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
   }
 
   .chartContainer {
