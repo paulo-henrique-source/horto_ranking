@@ -39,6 +39,16 @@ export const AppContainer = styled.div`
     align-items: center;
     flex-direction: column;
     margin-bottom: 1rem;
+
+    @media screen and (max-width: 768px) {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      margin-left: 0.5rem;
+    }
   }
 
   .chart {
