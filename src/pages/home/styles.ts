@@ -48,5 +48,9 @@ export const AppContainer = styled.div`
     /* background-color: #ffffff; */
     border-radius: 20px;
     padding: 40px;
+
+    @media screen and (max-width: 768px) {
+      padding: 0px;
+    }
   }
 `;
