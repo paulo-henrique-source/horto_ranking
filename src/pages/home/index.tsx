@@ -8,11 +8,10 @@ function App() {
       {/* <div className='menu'>
         <Menu />
       </div> */}
-
+      <div className='title'>
+        <h1>Ranking do Kahoot primeiro trimestre de 2025</h1>
+      </div>
       <div className='chartContainer'>
-        <div className='title'>
-          <h1>Ranking do Kahoot primeiro trimestre de 2025</h1>
-        </div>
         <div className='chart'>
           <Chart />
         </div>

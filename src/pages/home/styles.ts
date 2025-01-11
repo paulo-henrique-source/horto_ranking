@@ -12,7 +12,7 @@ export const AppContainer = styled.div`
   width: 100vw;
   overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   .menu {
     color: #f8b960;
