@@ -7,15 +7,14 @@ export const AppContainer = styled.div`
   background-size: cover;
   background-image: url("/background.jpeg");
   text-align: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%; /* Alterado de 100vh para 100% */
+  width: 100%;
   display: flex;
   flex-direction: column;
   overflow: auto;
 
   .menu {
     color: #f8b960;
-
     padding: 3rem 0 0 3rem;
   }
 
@@ -41,7 +40,6 @@ export const AppContainer = styled.div`
 
     @media screen and (max-width: 768px) {
       flex: 1;
-      display: flex;
       justify-content: center;
       align-items: flex-start;
       flex-direction: column;
@@ -53,8 +51,6 @@ export const AppContainer = styled.div`
   .chart {
     height: 100%;
     width: 90%;
-
-    /* background-color: #ffffff; */
     border-radius: 20px;
     padding: 40px;
 
