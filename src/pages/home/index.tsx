@@ -1,4 +1,4 @@
-import Menu from "../../components/menu";
+// import Menu from "../../components/menu";
 import { Chart } from "../../components/chart";
 import * as Styled from "./styles";
 
