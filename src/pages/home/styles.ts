@@ -6,13 +6,12 @@ export const AppContainer = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/background.jpeg");
-
   text-align: center;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 
   .menu {
     color: #f8b960;
