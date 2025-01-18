@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 
-type DataProps = {
+export type DataProps = {
   id: number;
   name: string;
   avatar: string | undefined;
