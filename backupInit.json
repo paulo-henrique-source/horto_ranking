@@ -166,5 +166,17 @@
         "name": "Artur",
         "hortoCoins": 0,
         "avatar": "/people/artur.jpg"
+    },
+    {
+        "id": "29",
+        "name": "Isabella",
+        "hortoCoins": 0,
+        "avatar": "/people/isabella.jpg"
+    },
+    {
+        "id": "30",
+        "name": "Pâmela",
+        "hortoCoins": 0,
+        "avatar": "/people/pamela.jpg"
     }
 ]
